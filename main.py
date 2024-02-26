@@ -1,11 +1,14 @@
 def hello():
-    raise NotImplementedError(__name__)
+    return "Hello, world!"
+
 
 def add(a, b):
-    raise NotImplementedError(__name__)
+    return a+b
+
 
 def subtract(a, b):
-    raise NotImplementedError(__name__)
+    return a-b
+
 
 def addStringsWithSpace(a, b):
-    raise NotImplementedError(__name__)
+    return a + " " + b
